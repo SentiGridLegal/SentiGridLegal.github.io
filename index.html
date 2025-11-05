@@ -32,6 +32,7 @@
     "brand":{"@type":"Brand","name":"SentiGrid"},
     "publisher":{"@type":"Organization","name":"SentiGrid"},
     "image":"https://sentigridlegal.github.io/img/sentigrid-og.png",
+    "audience":{"@type":"Audience","audienceType":"Beginners; Intermediates"},
     "offers":{
       "@type":"Offer",
       "url":"https://apps.microsoft.com/detail/9mz60qvlq23k",
@@ -46,24 +47,42 @@
     "@context":"https://schema.org",
     "@type":"FAQPage",
     "mainEntity":[
-      {"@type":"Question","name":"Is this financial advice?","acceptedAnswer":{"@type":"Answer","text":"No. SentiGrid is for educational use only and does not provide investment advice or signals."}},
-      {"@type":"Question","name":"Where are my API keys stored?","acceptedAnswer":{"@type":"Answer","text":"Keys are entered locally and stay on your device."}}
+      {
+        "@type":"Question",
+        "name":"Is this financial advice?",
+        "acceptedAnswer":{
+          "@type":"Answer",
+          "text":"No. SentiGrid is for educational use only and does not provide investment advice or signals."
+        }
+      },
+      {
+        "@type":"Question",
+        "name":"Where are my API keys stored?",
+        "acceptedAnswer":{
+          "@type":"Answer",
+          "text":"Keys are entered locally and stay on your device."
+        }
+      }
     ]
   }
   </script>
 
   <style>
-    body{font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Arial,sans-serif;max-width:760px;margin:40px auto;padding:0 16px;line-height:1.6;color:#1a1a1a}
-    header{margin-bottom:24px}
-    h1{font-size:1.6rem;line-height:1.3;margin:0 0 12px}
-    p{margin:0 0 16px}
-    ul{margin:0 0 24px 20px}
+    body{
+      font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Arial,sans-serif;
+      max-width:760px;margin:40px auto;padding:0 16px;line-height:1.6;color:#1a1a1a;
+    }
+    header{margin-bottom:24px;}
+    h1{font-size:1.6rem;line-height:1.3;margin:0 0 12px;}
+    p{margin:0 0 16px;}
+    ul{margin:0 0 24px 20px;}
     .btn{display:inline-block;padding:12px 18px;border-radius:10px;border:1px solid #ccc;text-decoration:none;font-weight:500}
-    nav{margin:32px 0 16px}
+    nav{margin:32px 0 16px;}
     nav a{margin-right:16px;text-decoration:none;color:#004aad;font-size:0.95rem}
     small{color:#555;font-size:0.8rem}
   </style>
 </head>
+
 <body>
   <header>
     <h1>SentiGrid — Trading Dashboard for Windows</h1>
