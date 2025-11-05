@@ -38,9 +38,3 @@ SentiGrid is distributed via the Microsoft Store (Windows 10/11).
 - OG preview image: https://sentigridlegal.github.io/img/sentigrid-og.png  
   *(Add more screenshots/GIFs under `/img/` and link them here as needed.)*
 
-## Badges (optional)
-If you add a Microsoft Store badge to `/img/`, you can embed it like this:
-```html
-<a href="https://apps.microsoft.com/detail/9mz60qvlq23k">
-  <img src="https://sentigridlegal.github.io/img/msstore-badge.png" alt="Get it from Microsoft" height="60">
-</a>
